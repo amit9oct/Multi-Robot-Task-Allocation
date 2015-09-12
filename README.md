@@ -18,4 +18,4 @@ as its simulation environment. It can be modified to test any Swarm Agent based 
 The main idea behind our algorithm is:
       :: Central Clustering 
       :: Low Level Obstacle Handling and optimal movement using Travelling Salesmen Algorithm(Christofides)
-      :: Optimal Allocation of taks using Hungarian Algorithm
+      :: Optimal Allocation of task using Hungarian Algorithm
