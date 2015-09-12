@@ -1,10 +1,11 @@
 # Multi-Robot-Task-Allocation
 Contributors
 --------------------
-  
-  Amitayush Thakur
+ 
   Garima Dhanania
-  
+  --------------------
+  Amitayush Thakur
+ 
 --------------------
 
 # What is this simulation about?
