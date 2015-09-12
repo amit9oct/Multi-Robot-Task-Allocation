@@ -2,9 +2,9 @@
 Contributors
 --------------------
  
-  Garima Dhanania
-  --------------------
   Amitayush Thakur
+  --------------------
+  Garima Dhanania
  
 --------------------
 
