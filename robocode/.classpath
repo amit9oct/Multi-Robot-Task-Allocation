@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/picocontainer-2.14.2.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/robocode.ui-1.9.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/robocode.ui.editor-1.9.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/robocode.sound-1.9.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/robocode.repository-1.9.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/robocode.host-1.9.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/robocode.core-1.9.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/robocode.battle-1.9.2.4.jar"/>
+	<classpathentry kind="lib" path="/home/amit9oct/Amitayush/SWARM/jars/libs/codesize-1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
