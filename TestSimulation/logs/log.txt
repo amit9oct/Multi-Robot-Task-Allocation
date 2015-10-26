@@ -1,8 +1,474 @@
-[12-30-2015 02:30:13 INFO arena.CreateArena]: Test Run 0 AlgoUsed AP
-[12-30-2015 02:30:14 INFO arena.CreateArena]: ****AP PointList****
-[12-30-2015 02:30:14 INFO arena.CreateArena]: 30 points:  Point 0 (4801.0, 2030.0, 3124.277996593773, 4420.584689834593, 4665.892626282778, 2240.4635681037084, 1743.2363580421331) Point 1 (4236.0, 3766.0, 3853.2048998204077, 4801.554956469831, 3989.3584697291867, 3638.772595257912, 3057.4577674924635) Point 2 (2612.0, 378.0, 644.3632515902812, 2013.000248385479, 3662.446859682745, 912.3343685294334, 1054.7871823263686) Point 3 (834.0, 1999.0, 1816.4693776664665, 1401.5338026604995, 1326.487090023872, 3221.448897623552, 3012.533319317813) Point 4 (2397.0, 2292.0, 1717.2550771507417, 2448.4658461983904, 2300.770740425912, 2367.3573874681447, 1926.311760852848) Point 5 (230.0, 3446.0, 3343.686588183767, 2856.7901568018606, 245.47301277329856, 4611.805936940539, 4288.867915895756) Point 6 (230.0, 496.0, 1788.1666588995556, 401.06109260310956, 2711.5783226748217, 3290.2513581791895, 3369.82017324367) Point 7 (4077.0, 1645.0, 2304.495172483553, 3613.8893176189003, 4100.185971392029, 1552.4290644019777, 995.3943941975964) Point 8 (516.0, 1794.0, 1904.4631789562118, 1182.983516368677, 1431.5966610746198, 3388.765261861612, 3235.651402731759) Point 9 (3001.0, 4348.0, 3858.3764720410577, 4431.459466135282, 2945.0137520901326, 4177.755976597963, 3617.9371194093465) Point 10 (269.0, 4170.0, 3957.490240038502, 3571.6048213653203, 963.1500402325694, 5122.2656120119345, 4745.674346180951) Point 11 (4894.0, 3777.0, 4274.772625532263, 5322.1428954886205, 4643.120071675941, 3835.563192022783, 3271.029960119595) Point 12 (4208.0, 4011.0, 4040.5550361305563, 4945.385829235167, 4003.560914985558, 3873.951600110667, 3291.9126659132376) Point 13 (4135.0, 2195.0, 2643.0228905554336, 3860.1663176604193, 3979.8172068576214, 2090.554950246465, 1518.9134274210628) Point 14 (51.0, 3181.0, 3228.3646014661977, 2626.82317638626, 236.4339231159522, 4563.368930954411, 4276.070392311146) Point 15 (1258.0, 4031.0, 3495.7266769585976, 3476.3603092890125, 1274.2684175635839, 4441.497607789517, 4001.363392645062) Point 16 (340.0, 3026.0, 2932.7018259618553, 2426.4068084309356, 188.88356201639147, 4243.87959301392, 3950.064303274062) Point 17 (4991.0, 1531.0, 3113.8558091215464, 4472.800017885888, 4994.597180954636, 1992.775953287273, 1592.2995949255278) Point 18 (3208.0, 2846.0, 2527.769767997078, 3422.1902343382376, 2944.215515209442, 2661.8463516889924, 2102.623123624393) Point 19 (2160.0, 3424.0, 2809.7957221121965, 3206.8192964368914, 1886.5219320219949, 3493.1558797167927, 3006.7424232880344) Point 20 (4338.0, 927.0, 2344.4523880855418, 3738.0434721923716, 4649.419748742847, 1103.4659034152346, 764.6574396420923) Point 21 (3837.0, 3742.0, 3617.00221177704, 4491.358925759552, 3591.0758833530654, 3556.3437685353197, 2974.4406196796062) Point 22 (2209.0, 1308.0, 717.0251041630272, 1739.961206464098, 2702.6153999413236, 1705.9463649247593, 1477.3425466018366) Point 23 (4207.0, 4991.0, 4892.072975743514, 5662.703594573885, 4307.771697757438, 4840.878019533234, 4258.230853300464) Point 24 (72.0, 1994.0, 2380.0714274996035, 1481.324407413852, 1231.7325196648824, 3874.7998657995226, 3720.337619087816) Point 25 (3406.0, 525.0, 1395.1032219875344, 2794.449677485712, 4114.307232086588, 339.37737107827326, 311.66167553935793) Point 26 (4755.0, 626.0, 2741.011674546462, 4142.01460644455, 5160.767578568134, 1318.381204356312, 1176.8572555752035) Point 27 (4338.0, 1567.0, 2510.2942058651215, 3844.727428570197, 4371.304610754094, 1598.9111920303767, 1088.5866984305844) Point 28 (2755.0, 1118.0, 893.9133067585469, 2200.2665747586134, 3234.1740831315806, 1185.914415124464, 899.7160663231484) Point 29 (1882.0, 1110.0, 509.39964664298697, 1362.1255448746272, 2635.2656412589604, 1861.9629427032107, 1738.0046029858495)
-[12-30-2015 02:30:15 INFO arena.CreateArena]: Robot1 assigned to cluster number3
-[12-30-2015 02:30:15 INFO arena.CreateArena]: Robot2 assigned to cluster number4
-[12-30-2015 02:30:15 INFO arena.CreateArena]: Robot3 assigned to cluster number5
-[12-30-2015 02:30:15 INFO arena.CreateArena]: Robot4 assigned to cluster number1
-[12-30-2015 02:30:15 INFO arena.CreateArena]: Robot5 assigned to cluster number2
+[26-12-2015 01:12:06 INFO arena.CreateArena]: Test Run 0 AlgoUsed AP
+[26-12-2015 01:12:12 INFO arena.CreateArena]: For TestBot(4) distance = 902424.5364912853
+[26-12-2015 01:12:12 INFO arena.CreateArena]: For TestBot(1) distance = 751758.9995568782
+[26-12-2015 01:12:13 INFO arena.CreateArena]: For TestBot(0) distance = 696180.0001654759
+[26-12-2015 01:12:13 INFO arena.CreateArena]: For TestBot(3) distance = 7732.282114761038
+[26-12-2015 01:12:16 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-12-2015 01:12:16 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:16 INFO arena.CreateArena]: Test Run 0 AlgoUsed KMeans
+[26-12-2015 01:12:19 INFO arena.CreateArena]: For TestBot(1) distance = 904580.4874319872
+[26-12-2015 01:12:19 INFO arena.CreateArena]: For TestBot(3) distance = 1399499.829838081
+[26-12-2015 01:12:19 INFO arena.CreateArena]: For TestBot(0) distance = 6116.008160586896
+[26-12-2015 01:12:22 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-12-2015 01:12:22 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:22 INFO arena.CreateArena]: Test Run 1 AlgoUsed AP
+[26-12-2015 01:12:25 INFO arena.CreateArena]: For TestBot(2) distance = 40294.15576350421
+[26-12-2015 01:12:26 INFO arena.CreateArena]: For TestBot(4) distance = 23685.236862965547
+[26-12-2015 01:12:27 INFO arena.CreateArena]: For TestBot(3) distance = 18135.255784467332
+[26-12-2015 01:12:29 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-12-2015 01:12:29 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:29 INFO arena.CreateArena]: Test Run 1 AlgoUsed KMeans
+[26-12-2015 01:12:32 INFO arena.CreateArena]: For TestBot(3) distance = 10187.766453567432
+[26-12-2015 01:12:32 INFO arena.CreateArena]: For TestBot(4) distance = 27213.03002174694
+[26-12-2015 01:12:33 INFO arena.CreateArena]: For TestBot(0) distance = 21487.33889488108
+[26-12-2015 01:12:35 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-12-2015 01:12:35 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:35 INFO arena.CreateArena]: Test Run 2 AlgoUsed AP
+[26-12-2015 01:12:38 INFO arena.CreateArena]: For TestBot(1) distance = 13005.246312386997
+[26-12-2015 01:12:38 INFO arena.CreateArena]: For TestBot(0) distance = 19728.7405818885
+[26-12-2015 01:12:39 INFO arena.CreateArena]: For TestBot(4) distance = 11702.636049363526
+[26-12-2015 01:12:41 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-12-2015 01:12:41 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:41 INFO arena.CreateArena]: Test Run 2 AlgoUsed KMeans
+[26-12-2015 01:12:44 INFO arena.CreateArena]: For TestBot(4) distance = 20685.437972955737
+[26-12-2015 01:12:44 INFO arena.CreateArena]: For TestBot(0) distance = 47768.95934930485
+[26-12-2015 01:12:46 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-12-2015 01:12:46 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:46 INFO arena.CreateArena]: Test Run 3 AlgoUsed AP
+[26-12-2015 01:12:50 INFO arena.CreateArena]: For TestBot(0) distance = 4449670.164503061
+[26-12-2015 01:12:50 INFO arena.CreateArena]: For TestBot(1) distance = 5012159.786832904
+[26-12-2015 01:12:50 INFO arena.CreateArena]: For TestBot(2) distance = 3424399.5258330125
+[26-12-2015 01:12:51 INFO arena.CreateArena]: For TestBot(4) distance = 30994.16543282866
+[26-12-2015 01:12:53 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-12-2015 01:12:53 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:53 INFO arena.CreateArena]: Test Run 3 AlgoUsed KMeans
+[26-12-2015 01:12:56 INFO arena.CreateArena]: For TestBot(2) distance = 16845.65565719446
+[26-12-2015 01:12:56 INFO arena.CreateArena]: For TestBot(4) distance = 19598.70781287325
+[26-12-2015 01:12:56 INFO arena.CreateArena]: For TestBot(3) distance = 28131.010317170036
+[26-12-2015 01:12:58 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-12-2015 01:12:58 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-12-2015 01:12:58 INFO arena.CreateArena]: Test Run 4 AlgoUsed AP
+[26-13-2015 01:13:02 INFO arena.CreateArena]: For TestBot(1) distance = 6036.803644727659
+[26-13-2015 01:13:02 INFO arena.CreateArena]: For TestBot(2) distance = 16984.95244000437
+[26-13-2015 01:13:03 INFO arena.CreateArena]: For TestBot(0) distance = 16190.540756704668
+[26-13-2015 01:13:05 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-13-2015 01:13:05 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:05 INFO arena.CreateArena]: Test Run 4 AlgoUsed KMeans
+[26-13-2015 01:13:07 INFO arena.CreateArena]: For TestBot(2) distance = 44580.32522106561
+[26-13-2015 01:13:09 INFO arena.CreateArena]: For TestBot(4) distance = 17562.18310957365
+[26-13-2015 01:13:10 INFO arena.CreateArena]: For TestBot(0) distance = 21254.782158985454
+[26-13-2015 01:13:12 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-13-2015 01:13:12 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:12 INFO arena.CreateArena]: Test Run 5 AlgoUsed AP
+[26-13-2015 01:13:15 INFO arena.CreateArena]: For TestBot(4) distance = 23778.73911189506
+[26-13-2015 01:13:16 INFO arena.CreateArena]: For TestBot(2) distance = 38548.14825041872
+[26-13-2015 01:13:18 INFO arena.CreateArena]: For TestBot(0) distance = 55580.41598982638
+[26-13-2015 01:13:19 INFO arena.CreateArena]: For TestBot(1) distance = 25178.587288968123
+[26-13-2015 01:13:21 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-13-2015 01:13:21 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:21 INFO arena.CreateArena]: Test Run 5 AlgoUsed KMeans
+[26-13-2015 01:13:24 INFO arena.CreateArena]: For TestBot(2) distance = 8128.085283349059
+[26-13-2015 01:13:24 INFO arena.CreateArena]: For TestBot(1) distance = 26499.014828771513
+[26-13-2015 01:13:26 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-13-2015 01:13:26 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:26 INFO arena.CreateArena]: Test Run 6 AlgoUsed AP
+[26-13-2015 01:13:29 INFO arena.CreateArena]: For TestBot(1) distance = 3502546.7277092636
+[26-13-2015 01:13:29 INFO arena.CreateArena]: For TestBot(2) distance = 3459258.226662268
+[26-13-2015 01:13:29 INFO arena.CreateArena]: For TestBot(0) distance = 1504446.055735375
+[26-13-2015 01:13:30 INFO arena.CreateArena]: For TestBot(4) distance = 10680.325814606138
+[26-13-2015 01:13:33 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-13-2015 01:13:33 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:33 INFO arena.CreateArena]: Test Run 6 AlgoUsed KMeans
+[26-13-2015 01:13:35 INFO arena.CreateArena]: For TestBot(1) distance = 24193.866978116006
+[26-13-2015 01:13:35 INFO arena.CreateArena]: For TestBot(0) distance = 16910.47570352535
+[26-13-2015 01:13:35 INFO arena.CreateArena]: For TestBot(4) distance = 7541.869499882274
+[26-13-2015 01:13:38 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-13-2015 01:13:38 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:38 INFO arena.CreateArena]: Test Run 7 AlgoUsed AP
+[26-13-2015 01:13:41 INFO arena.CreateArena]: For TestBot(0) distance = 974556.7465889958
+[26-13-2015 01:13:41 INFO arena.CreateArena]: For TestBot(2) distance = 3609916.2285476867
+[26-13-2015 01:13:42 INFO arena.CreateArena]: For TestBot(1) distance = 13122.013786107522
+[26-13-2015 01:13:44 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-13-2015 01:13:44 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:44 INFO arena.CreateArena]: Test Run 7 AlgoUsed KMeans
+[26-13-2015 01:13:47 INFO arena.CreateArena]: For TestBot(0) distance = 16939.780733513373
+[26-13-2015 01:13:47 INFO arena.CreateArena]: For TestBot(2) distance = 15577.382425134707
+[26-13-2015 01:13:47 INFO arena.CreateArena]: For TestBot(3) distance = 16613.92990848822
+[26-13-2015 01:13:50 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-13-2015 01:13:50 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:50 INFO arena.CreateArena]: Test Run 8 AlgoUsed AP
+[26-13-2015 01:13:53 INFO arena.CreateArena]: For TestBot(1) distance = 29475.430344654585
+[26-13-2015 01:13:53 INFO arena.CreateArena]: For TestBot(0) distance = 50179.17101428049
+[26-13-2015 01:13:53 INFO arena.CreateArena]: For TestBot(2) distance = 4972.671664319924
+[26-13-2015 01:13:53 INFO arena.CreateArena]: For TestBot(4) distance = 8273.836331384418
+[26-13-2015 01:13:56 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-13-2015 01:13:56 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-13-2015 01:13:56 INFO arena.CreateArena]: Test Run 8 AlgoUsed KMeans
+[26-13-2015 01:13:59 INFO arena.CreateArena]: For TestBot(0) distance = 24617.05419340042
+[26-13-2015 01:13:59 INFO arena.CreateArena]: For TestBot(1) distance = 56388.61291749667
+[26-13-2015 01:13:59 INFO arena.CreateArena]: For TestBot(2) distance = 24841.877176342165
+[26-14-2015 01:14:02 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-14-2015 01:14:02 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:02 INFO arena.CreateArena]: Test Run 9 AlgoUsed AP
+[26-14-2015 01:14:05 INFO arena.CreateArena]: For TestBot(0) distance = 5595.2263845297675
+[26-14-2015 01:14:05 INFO arena.CreateArena]: For TestBot(3) distance = 11145.580418148105
+[26-14-2015 01:14:06 INFO arena.CreateArena]: For TestBot(1) distance = 56836.287105092284
+[26-14-2015 01:14:08 INFO arena.CreateArena]: For TestBot(2) distance = 16664.831191873494
+[26-14-2015 01:14:09 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-14-2015 01:14:09 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:09 INFO arena.CreateArena]: Test Run 9 AlgoUsed KMeans
+[26-14-2015 01:14:12 INFO arena.CreateArena]: For TestBot(2) distance = 55003.61675269111
+[26-14-2015 01:14:13 INFO arena.CreateArena]: For TestBot(0) distance = 23914.2601380689
+[26-14-2015 01:14:13 INFO arena.CreateArena]: For TestBot(1) distance = 18523.229881545172
+[26-14-2015 01:14:16 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-14-2015 01:14:16 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:16 INFO arena.CreateArena]: Test Run 10 AlgoUsed AP
+[26-14-2015 01:14:19 INFO arena.CreateArena]: For TestBot(2) distance = 31889.42975116498
+[26-14-2015 01:14:20 INFO arena.CreateArena]: For TestBot(0) distance = 21851.904186148633
+[26-14-2015 01:14:22 INFO arena.CreateArena]: For TestBot(1) distance = 23011.95311997796
+[26-14-2015 01:14:22 INFO arena.CreateArena]: For TestBot(4) distance = 16291.067137335129
+[26-14-2015 01:14:25 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-14-2015 01:14:25 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:25 INFO arena.CreateArena]: Test Run 10 AlgoUsed KMeans
+[26-14-2015 01:14:27 INFO arena.CreateArena]: For TestBot(1) distance = 48626.52033651314
+[26-14-2015 01:14:27 INFO arena.CreateArena]: For TestBot(4) distance = 19436.421295249234
+[26-14-2015 01:14:28 INFO arena.CreateArena]: For TestBot(2) distance = 20406.510131756386
+[26-14-2015 01:14:31 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-14-2015 01:14:31 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:31 INFO arena.CreateArena]: Test Run 11 AlgoUsed AP
+[26-14-2015 01:14:34 INFO arena.CreateArena]: For TestBot(4) distance = 50110.60855851036
+[26-14-2015 01:14:34 INFO arena.CreateArena]: For TestBot(2) distance = 71595.2140191653
+[26-14-2015 01:14:35 INFO arena.CreateArena]: For TestBot(1) distance = 40560.77212714285
+[26-14-2015 01:14:37 INFO arena.CreateArena]: For TestBot(0) distance = 20840.243771138164
+[26-14-2015 01:14:39 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-14-2015 01:14:39 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:39 INFO arena.CreateArena]: Test Run 11 AlgoUsed KMeans
+[26-14-2015 01:14:41 INFO arena.CreateArena]: For TestBot(2) distance = 23635.64722722537
+[26-14-2015 01:14:41 INFO arena.CreateArena]: For TestBot(1) distance = 31838.66547083545
+[26-14-2015 01:14:41 INFO arena.CreateArena]: For TestBot(4) distance = 77670.30067121217
+[26-14-2015 01:14:44 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-14-2015 01:14:44 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:44 INFO arena.CreateArena]: Test Run 12 AlgoUsed AP
+[26-14-2015 01:14:47 INFO arena.CreateArena]: For TestBot(3) distance = 43335.306460295156
+[26-14-2015 01:14:47 INFO arena.CreateArena]: For TestBot(1) distance = 41990.013251624405
+[26-14-2015 01:14:48 INFO arena.CreateArena]: For TestBot(4) distance = 34596.974393003
+[26-14-2015 01:14:50 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-14-2015 01:14:50 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:50 INFO arena.CreateArena]: Test Run 12 AlgoUsed KMeans
+[26-14-2015 01:14:53 INFO arena.CreateArena]: For TestBot(3) distance = 22271.84810953383
+[26-14-2015 01:14:53 INFO arena.CreateArena]: For TestBot(4) distance = 22734.885802293196
+[26-14-2015 01:14:55 INFO arena.CreateArena]: For TestBot(1) distance = 26361.6078001037
+[26-14-2015 01:14:57 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-14-2015 01:14:57 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-14-2015 01:14:57 INFO arena.CreateArena]: Test Run 13 AlgoUsed AP
+[26-15-2015 01:15:00 INFO arena.CreateArena]: For TestBot(0) distance = 15618.98820418941
+[26-15-2015 01:15:00 INFO arena.CreateArena]: For TestBot(4) distance = 21850.949324474353
+[26-15-2015 01:15:02 WARN arena.CreateArena]: CLUSTERS_MADE = 2
+[26-15-2015 01:15:02 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:02 INFO arena.CreateArena]: Test Run 13 AlgoUsed KMeans
+[26-15-2015 01:15:05 INFO arena.CreateArena]: For TestBot(0) distance = 23525.793442629605
+[26-15-2015 01:15:05 INFO arena.CreateArena]: For TestBot(1) distance = 21750.7046537221
+[26-15-2015 01:15:05 INFO arena.CreateArena]: For TestBot(4) distance = 18718.497266939634
+[26-15-2015 01:15:08 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-15-2015 01:15:08 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:08 INFO arena.CreateArena]: Test Run 14 AlgoUsed AP
+[26-15-2015 01:15:11 INFO arena.CreateArena]: For TestBot(0) distance = 45851.381089924165
+[26-15-2015 01:15:11 INFO arena.CreateArena]: For TestBot(2) distance = 8432.739612329107
+[26-15-2015 01:15:12 INFO arena.CreateArena]: For TestBot(1) distance = 27002.24430775681
+[26-15-2015 01:15:14 INFO arena.CreateArena]: For TestBot(3) distance = 53369.604617196615
+[26-15-2015 01:15:15 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-15-2015 01:15:15 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:15 INFO arena.CreateArena]: Test Run 14 AlgoUsed KMeans
+[26-15-2015 01:15:17 INFO arena.CreateArena]: For TestBot(2) distance = 33814.863758010964
+[26-15-2015 01:15:17 INFO arena.CreateArena]: For TestBot(0) distance = 31642.690626468804
+[26-15-2015 01:15:18 INFO arena.CreateArena]: For TestBot(1) distance = 31563.7915080724
+[26-15-2015 01:15:20 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-15-2015 01:15:20 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:20 INFO arena.CreateArena]: Test Run 15 AlgoUsed AP
+[26-15-2015 01:15:23 INFO arena.CreateArena]: For TestBot(2) distance = 12881.576791698855
+[26-15-2015 01:15:24 INFO arena.CreateArena]: For TestBot(3) distance = 28387.718895813046
+[26-15-2015 01:15:26 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-15-2015 01:15:26 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:26 INFO arena.CreateArena]: Test Run 15 AlgoUsed KMeans
+[26-15-2015 01:15:29 INFO arena.CreateArena]: For TestBot(3) distance = 40644.75301896688
+[26-15-2015 01:15:29 INFO arena.CreateArena]: For TestBot(4) distance = 16670.456781646608
+[26-15-2015 01:15:31 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-15-2015 01:15:31 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:31 INFO arena.CreateArena]: Test Run 16 AlgoUsed AP
+[26-15-2015 01:15:35 INFO arena.CreateArena]: For TestBot(3) distance = 15116.01708376491
+[26-15-2015 01:15:35 INFO arena.CreateArena]: For TestBot(4) distance = 19523.605303394284
+[26-15-2015 01:15:37 WARN arena.CreateArena]: CLUSTERS_MADE = 2
+[26-15-2015 01:15:37 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:37 INFO arena.CreateArena]: Test Run 16 AlgoUsed KMeans
+[26-15-2015 01:15:40 INFO arena.CreateArena]: For TestBot(4) distance = 27779.086020984723
+[26-15-2015 01:15:40 INFO arena.CreateArena]: For TestBot(0) distance = 15652.624914972297
+[26-15-2015 01:15:40 INFO arena.CreateArena]: For TestBot(3) distance = 23438.309120081543
+[26-15-2015 01:15:42 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-15-2015 01:15:42 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:42 INFO arena.CreateArena]: Test Run 17 AlgoUsed AP
+[26-15-2015 01:15:46 INFO arena.CreateArena]: For TestBot(0) distance = 34776.3409931139
+[26-15-2015 01:15:46 INFO arena.CreateArena]: For TestBot(4) distance = 29171.476105725746
+[26-15-2015 01:15:47 INFO arena.CreateArena]: For TestBot(1) distance = 22332.744800827524
+[26-15-2015 01:15:49 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-15-2015 01:15:49 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:49 INFO arena.CreateArena]: Test Run 17 AlgoUsed KMeans
+[26-15-2015 01:15:52 INFO arena.CreateArena]: For TestBot(0) distance = 72650.5717332145
+[26-15-2015 01:15:52 INFO arena.CreateArena]: For TestBot(4) distance = 26907.549525194776
+[26-15-2015 01:15:52 INFO arena.CreateArena]: For TestBot(1) distance = 31614.382665689554
+[26-15-2015 01:15:55 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-15-2015 01:15:55 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-15-2015 01:15:55 INFO arena.CreateArena]: Test Run 18 AlgoUsed AP
+[26-15-2015 01:15:58 INFO arena.CreateArena]: For TestBot(1) distance = 21898.750115238516
+[26-15-2015 01:15:58 INFO arena.CreateArena]: For TestBot(3) distance = 16896.09359993743
+[26-15-2015 01:15:59 INFO arena.CreateArena]: For TestBot(2) distance = 9251.363939408191
+[26-16-2015 01:16:02 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:02 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:02 INFO arena.CreateArena]: Test Run 18 AlgoUsed KMeans
+[26-16-2015 01:16:05 INFO arena.CreateArena]: For TestBot(2) distance = 81369.40642103681
+[26-16-2015 01:16:05 INFO arena.CreateArena]: For TestBot(1) distance = 25614.14700680655
+[26-16-2015 01:16:05 INFO arena.CreateArena]: For TestBot(3) distance = 19087.965073654
+[26-16-2015 01:16:08 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:08 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:08 INFO arena.CreateArena]: Test Run 19 AlgoUsed AP
+[26-16-2015 01:16:11 INFO arena.CreateArena]: For TestBot(2) distance = 27939.77133274897
+[26-16-2015 01:16:11 INFO arena.CreateArena]: For TestBot(0) distance = 20813.24686144966
+[26-16-2015 01:16:13 INFO arena.CreateArena]: For TestBot(4) distance = 32971.12577064834
+[26-16-2015 01:16:14 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:14 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:14 INFO arena.CreateArena]: Test Run 19 AlgoUsed KMeans
+[26-16-2015 01:16:16 INFO arena.CreateArena]: For TestBot(0) distance = 20813.24686144966
+[26-16-2015 01:16:17 INFO arena.CreateArena]: For TestBot(2) distance = 28651.03582213136
+[26-16-2015 01:16:18 INFO arena.CreateArena]: For TestBot(4) distance = 40099.99443845117
+[26-16-2015 01:16:20 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:20 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:20 INFO arena.CreateArena]: Test Run 20 AlgoUsed AP
+[26-16-2015 01:16:23 INFO arena.CreateArena]: For TestBot(4) distance = 24263.649352755692
+[26-16-2015 01:16:24 INFO arena.CreateArena]: For TestBot(0) distance = 10949.14496009103
+[26-16-2015 01:16:26 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:26 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:26 INFO arena.CreateArena]: Test Run 20 AlgoUsed KMeans
+[26-16-2015 01:16:29 INFO arena.CreateArena]: For TestBot(0) distance = 14295.949626092011
+[26-16-2015 01:16:29 INFO arena.CreateArena]: For TestBot(4) distance = 21962.793840796287
+[26-16-2015 01:16:31 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:31 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:31 INFO arena.CreateArena]: Test Run 21 AlgoUsed AP
+[26-16-2015 01:16:35 INFO arena.CreateArena]: For TestBot(4) distance = 22117.253028877414
+[26-16-2015 01:16:36 INFO arena.CreateArena]: For TestBot(0) distance = 26394.725416734313
+[26-16-2015 01:16:37 INFO arena.CreateArena]: For TestBot(1) distance = 18029.6306282686
+[26-16-2015 01:16:39 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-16-2015 01:16:39 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:39 INFO arena.CreateArena]: Test Run 21 AlgoUsed KMeans
+[26-16-2015 01:16:42 INFO arena.CreateArena]: For TestBot(0) distance = 34599.92370651621
+[26-16-2015 01:16:42 INFO arena.CreateArena]: For TestBot(1) distance = 14008.548798886037
+[26-16-2015 01:16:44 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:44 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:44 INFO arena.CreateArena]: Test Run 22 AlgoUsed AP
+[26-16-2015 01:16:48 INFO arena.CreateArena]: For TestBot(4) distance = 21736.15853405821
+[26-16-2015 01:16:48 INFO arena.CreateArena]: For TestBot(2) distance = 25138.785723119658
+[26-16-2015 01:16:48 INFO arena.CreateArena]: For TestBot(3) distance = 22479.669003570456
+[26-16-2015 01:16:51 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:51 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:51 INFO arena.CreateArena]: Test Run 22 AlgoUsed KMeans
+[26-16-2015 01:16:54 INFO arena.CreateArena]: For TestBot(2) distance = 34942.49699658944
+[26-16-2015 01:16:54 INFO arena.CreateArena]: For TestBot(3) distance = 25876.21234399375
+[26-16-2015 01:16:54 INFO arena.CreateArena]: For TestBot(4) distance = 21965.988220739244
+[26-16-2015 01:16:57 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-16-2015 01:16:57 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-16-2015 01:16:57 INFO arena.CreateArena]: Test Run 23 AlgoUsed AP
+[26-17-2015 01:17:00 INFO arena.CreateArena]: For TestBot(1) distance = 1813311.133848767
+[26-17-2015 01:17:00 INFO arena.CreateArena]: For TestBot(2) distance = 20969.753558568922
+[26-17-2015 01:17:00 INFO arena.CreateArena]: For TestBot(3) distance = 19034.78002355518
+[26-17-2015 01:17:03 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:03 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:03 INFO arena.CreateArena]: Test Run 23 AlgoUsed KMeans
+[26-17-2015 01:17:05 INFO arena.CreateArena]: For TestBot(3) distance = 31388.3808661808
+[26-17-2015 01:17:06 INFO arena.CreateArena]: For TestBot(1) distance = 25237.282639021123
+[26-17-2015 01:17:08 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:08 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:08 INFO arena.CreateArena]: Test Run 24 AlgoUsed AP
+[26-17-2015 01:17:12 INFO arena.CreateArena]: For TestBot(3) distance = 65689.34111081526
+[26-17-2015 01:17:12 INFO arena.CreateArena]: For TestBot(1) distance = 25042.117378938572
+[26-17-2015 01:17:14 WARN arena.CreateArena]: CLUSTERS_MADE = 2
+[26-17-2015 01:17:14 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:14 INFO arena.CreateArena]: Test Run 24 AlgoUsed KMeans
+[26-17-2015 01:17:17 INFO arena.CreateArena]: For TestBot(4) distance = 112937.56932390087
+[26-17-2015 01:17:17 INFO arena.CreateArena]: For TestBot(1) distance = 25077.956225056245
+[26-17-2015 01:17:18 INFO arena.CreateArena]: For TestBot(3) distance = 21409.202772573437
+[26-17-2015 01:17:20 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:20 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:20 INFO arena.CreateArena]: Test Run 25 AlgoUsed AP
+[26-17-2015 01:17:24 INFO arena.CreateArena]: For TestBot(4) distance = 41817.35060415961
+[26-17-2015 01:17:26 INFO arena.CreateArena]: For TestBot(1) distance = 38178.5651150766
+[26-17-2015 01:17:27 INFO arena.CreateArena]: For TestBot(0) distance = 30896.096888300595
+[26-17-2015 01:17:29 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:29 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:29 INFO arena.CreateArena]: Test Run 25 AlgoUsed KMeans
+[26-17-2015 01:17:31 INFO arena.CreateArena]: For TestBot(0) distance = 41965.68646342623
+[26-17-2015 01:17:32 INFO arena.CreateArena]: For TestBot(4) distance = 35389.63157980781
+[26-17-2015 01:17:34 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:34 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:34 INFO arena.CreateArena]: Test Run 26 AlgoUsed AP
+[26-17-2015 01:17:38 INFO arena.CreateArena]: For TestBot(2) distance = 16916.84529951268
+[26-17-2015 01:17:38 INFO arena.CreateArena]: For TestBot(0) distance = 15541.021651427196
+[26-17-2015 01:17:39 INFO arena.CreateArena]: For TestBot(1) distance = 26202.991474861697
+[26-17-2015 01:17:41 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:41 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:41 INFO arena.CreateArena]: Test Run 26 AlgoUsed KMeans
+[26-17-2015 01:17:44 INFO arena.CreateArena]: For TestBot(2) distance = 31402.969851471687
+[26-17-2015 01:17:44 INFO arena.CreateArena]: For TestBot(0) distance = 33314.8991785727
+[26-17-2015 01:17:46 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:46 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:46 INFO arena.CreateArena]: Test Run 27 AlgoUsed AP
+[26-17-2015 01:17:50 INFO arena.CreateArena]: For TestBot(1) distance = 20942.612993003197
+[26-17-2015 01:17:50 INFO arena.CreateArena]: For TestBot(4) distance = 34568.077913115856
+[26-17-2015 01:17:50 INFO arena.CreateArena]: For TestBot(2) distance = 4733.5560053358495
+[26-17-2015 01:17:50 INFO arena.CreateArena]: For TestBot(3) distance = 31901.90962415254
+[26-17-2015 01:17:53 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-17-2015 01:17:53 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:53 INFO arena.CreateArena]: Test Run 27 AlgoUsed KMeans
+[26-17-2015 01:17:55 INFO arena.CreateArena]: For TestBot(3) distance = 29583.451167851537
+[26-17-2015 01:17:56 INFO arena.CreateArena]: For TestBot(4) distance = 22001.945095096253
+[26-17-2015 01:17:58 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-17-2015 01:17:58 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-17-2015 01:17:58 INFO arena.CreateArena]: Test Run 28 AlgoUsed AP
+[26-18-2015 01:18:00 INFO arena.CreateArena]: For TestBot(3) distance = 26289.874983363254
+[26-18-2015 01:18:00 INFO arena.CreateArena]: For TestBot(0) distance = 29085.048329742094
+[26-18-2015 01:18:01 INFO arena.CreateArena]: For TestBot(2) distance = 11941.230026566116
+[26-18-2015 01:18:01 INFO arena.CreateArena]: For TestBot(4) distance = 44305.82774886093
+[26-18-2015 01:18:02 INFO arena.CreateArena]: For TestBot(1) distance = 28461.264462322517
+[26-18-2015 01:18:04 WARN arena.CreateArena]: CLUSTERS_MADE = 5
+[26-18-2015 01:18:04 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:04 INFO arena.CreateArena]: Test Run 28 AlgoUsed KMeans
+[26-18-2015 01:18:07 INFO arena.CreateArena]: For TestBot(2) distance = 22380.678330557686
+[26-18-2015 01:18:08 INFO arena.CreateArena]: For TestBot(0) distance = 24989.076979531892
+[26-18-2015 01:18:08 INFO arena.CreateArena]: For TestBot(4) distance = 22547.88073955975
+[26-18-2015 01:18:11 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-18-2015 01:18:11 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:11 INFO arena.CreateArena]: Test Run 29 AlgoUsed AP
+[26-18-2015 01:18:14 INFO arena.CreateArena]: For TestBot(4) distance = 48983.2991361328
+[26-18-2015 01:18:14 INFO arena.CreateArena]: For TestBot(1) distance = 25947.160862571458
+[26-18-2015 01:18:15 INFO arena.CreateArena]: For TestBot(2) distance = 22108.379933292803
+[26-18-2015 01:18:17 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-18-2015 01:18:17 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:17 INFO arena.CreateArena]: Test Run 29 AlgoUsed KMeans
+[26-18-2015 01:18:20 INFO arena.CreateArena]: For TestBot(1) distance = 31535.09665133982
+[26-18-2015 01:18:20 INFO arena.CreateArena]: For TestBot(4) distance = 11931.51509774862
+[26-18-2015 01:18:22 INFO arena.CreateArena]: For TestBot(0) distance = 32932.53616251382
+[26-18-2015 01:18:24 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-18-2015 01:18:24 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:24 INFO arena.CreateArena]: Test Run 30 AlgoUsed AP
+[26-18-2015 01:18:27 INFO arena.CreateArena]: For TestBot(3) distance = 45281.19567896046
+[26-18-2015 01:18:28 INFO arena.CreateArena]: For TestBot(2) distance = 13844.952362333484
+[26-18-2015 01:18:30 INFO arena.CreateArena]: For TestBot(4) distance = 14278.663752126307
+[26-18-2015 01:18:31 INFO arena.CreateArena]: For TestBot(1) distance = 27126.213696405895
+[26-18-2015 01:18:33 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-18-2015 01:18:33 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:33 INFO arena.CreateArena]: Test Run 30 AlgoUsed KMeans
+[26-18-2015 01:18:36 INFO arena.CreateArena]: For TestBot(4) distance = 31879.599169525773
+[26-18-2015 01:18:36 INFO arena.CreateArena]: For TestBot(3) distance = 31906.31416798175
+[26-18-2015 01:18:36 INFO arena.CreateArena]: For TestBot(1) distance = 25862.777941715773
+[26-18-2015 01:18:38 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-18-2015 01:18:38 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:38 INFO arena.CreateArena]: Test Run 31 AlgoUsed AP
+[26-18-2015 01:18:42 INFO arena.CreateArena]: For TestBot(2) distance = 76923.60393514273
+[26-18-2015 01:18:42 INFO arena.CreateArena]: For TestBot(3) distance = 47598.14773858516
+[26-18-2015 01:18:42 INFO arena.CreateArena]: For TestBot(1) distance = 27899.90135493553
+[26-18-2015 01:18:44 INFO arena.CreateArena]: For TestBot(4) distance = 23154.718787384456
+[26-18-2015 01:18:45 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-18-2015 01:18:45 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:45 INFO arena.CreateArena]: Test Run 31 AlgoUsed KMeans
+[26-18-2015 01:18:48 INFO arena.CreateArena]: For TestBot(2) distance = 8249.56396186291
+[26-18-2015 01:18:48 INFO arena.CreateArena]: For TestBot(3) distance = 13977.14074807044
+[26-18-2015 01:18:50 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-18-2015 01:18:50 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:50 INFO arena.CreateArena]: Test Run 32 AlgoUsed AP
+[26-18-2015 01:18:54 INFO arena.CreateArena]: For TestBot(3) distance = 18727.351540923763
+[26-18-2015 01:18:54 INFO arena.CreateArena]: For TestBot(2) distance = 59569.28338847191
+[26-18-2015 01:18:56 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-18-2015 01:18:56 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-18-2015 01:18:56 INFO arena.CreateArena]: Test Run 32 AlgoUsed KMeans
+[26-18-2015 01:18:59 INFO arena.CreateArena]: For TestBot(4) distance = 17224.604491317452
+[26-18-2015 01:18:59 INFO arena.CreateArena]: For TestBot(0) distance = 45311.326394920005
+[26-19-2015 01:19:01 INFO arena.CreateArena]: For TestBot(3) distance = 25841.268590639647
+[26-19-2015 01:19:02 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-19-2015 01:19:02 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:02 INFO arena.CreateArena]: Test Run 33 AlgoUsed AP
+[26-19-2015 01:19:06 INFO arena.CreateArena]: For TestBot(4) distance = 678788.1333331185
+[26-19-2015 01:19:06 INFO arena.CreateArena]: For TestBot(1) distance = 21799.13968822105
+[26-19-2015 01:19:08 WARN arena.CreateArena]: CLUSTERS_MADE = 2
+[26-19-2015 01:19:08 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:08 INFO arena.CreateArena]: Test Run 33 AlgoUsed KMeans
+[26-19-2015 01:19:11 INFO arena.CreateArena]: For TestBot(1) distance = 23735.826880170433
+[26-19-2015 01:19:11 INFO arena.CreateArena]: For TestBot(4) distance = 29204.824864285027
+[26-19-2015 01:19:13 INFO arena.CreateArena]: For TestBot(3) distance = 21148.510320527595
+[26-19-2015 01:19:15 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-19-2015 01:19:15 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:15 INFO arena.CreateArena]: Test Run 34 AlgoUsed AP
+[26-19-2015 01:19:18 INFO arena.CreateArena]: For TestBot(2) distance = 64286.35986794909
+[26-19-2015 01:19:19 INFO arena.CreateArena]: For TestBot(4) distance = 29545.20013422323
+[26-19-2015 01:19:19 INFO arena.CreateArena]: For TestBot(1) distance = 26477.71842849628
+[26-19-2015 01:19:21 INFO arena.CreateArena]: For TestBot(0) distance = 41315.73585859237
+[26-19-2015 01:19:22 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-19-2015 01:19:22 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:22 INFO arena.CreateArena]: Test Run 34 AlgoUsed KMeans
+[26-19-2015 01:19:24 INFO arena.CreateArena]: For TestBot(4) distance = 29545.200134223232
+[26-19-2015 01:19:25 INFO arena.CreateArena]: For TestBot(2) distance = 25995.192833510886
+[26-19-2015 01:19:26 INFO arena.CreateArena]: For TestBot(0) distance = 37176.12161935429
+[26-19-2015 01:19:28 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-19-2015 01:19:28 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:28 INFO arena.CreateArena]: Test Run 35 AlgoUsed AP
+[26-19-2015 01:19:32 INFO arena.CreateArena]: For TestBot(2) distance = 34057.14200562514
+[26-19-2015 01:19:33 INFO arena.CreateArena]: For TestBot(3) distance = 29932.836913120056
+[26-19-2015 01:19:33 INFO arena.CreateArena]: For TestBot(0) distance = 18393.005363077726
+[26-19-2015 01:19:35 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-19-2015 01:19:35 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:35 INFO arena.CreateArena]: Test Run 35 AlgoUsed KMeans
+[26-19-2015 01:19:38 INFO arena.CreateArena]: For TestBot(2) distance = 17571.617178339282
+[26-19-2015 01:19:38 INFO arena.CreateArena]: For TestBot(4) distance = 7510.942172725907
+[26-19-2015 01:19:40 INFO arena.CreateArena]: For TestBot(0) distance = 26535.576965009004
+[26-19-2015 01:19:41 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-19-2015 01:19:41 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:41 INFO arena.CreateArena]: Test Run 36 AlgoUsed AP
+[26-19-2015 01:19:45 INFO arena.CreateArena]: For TestBot(0) distance = 44798.232135426
+[26-19-2015 01:19:45 INFO arena.CreateArena]: For TestBot(1) distance = 23511.337755672314
+[26-19-2015 01:19:45 INFO arena.CreateArena]: For TestBot(4) distance = 36406.977846941365
+[26-19-2015 01:19:48 WARN arena.CreateArena]: CLUSTERS_MADE = 4
+[26-19-2015 01:19:48 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:48 INFO arena.CreateArena]: Test Run 36 AlgoUsed KMeans
+[26-19-2015 01:19:50 INFO arena.CreateArena]: For TestBot(4) distance = 14335.150984660999
+[26-19-2015 01:19:50 INFO arena.CreateArena]: For TestBot(3) distance = 15034.354792047408
+[26-19-2015 01:19:51 INFO arena.CreateArena]: For TestBot(0) distance = 19923.557041953125
+[26-19-2015 01:19:53 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-19-2015 01:19:53 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-19-2015 01:19:53 INFO arena.CreateArena]: Test Run 37 AlgoUsed AP
+[26-19-2015 01:19:57 INFO arena.CreateArena]: For TestBot(0) distance = 21365.893044247645
+[26-19-2015 01:19:57 INFO arena.CreateArena]: For TestBot(1) distance = 22528.81330323208
+[26-20-2015 01:20:00 WARN arena.CreateArena]: CLUSTERS_MADE = 2
+[26-20-2015 01:20:00 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-20-2015 01:20:00 INFO arena.CreateArena]: Test Run 37 AlgoUsed KMeans
+[26-20-2015 01:20:02 INFO arena.CreateArena]: For TestBot(1) distance = 27356.071560719633
+[26-20-2015 01:20:02 INFO arena.CreateArena]: For TestBot(2) distance = 68099.95892115592
+[26-20-2015 01:20:05 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-20-2015 01:20:05 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-20-2015 01:20:05 INFO arena.CreateArena]: Test Run 38 AlgoUsed AP
+[26-20-2015 01:20:08 INFO arena.CreateArena]: For TestBot(1) distance = 25320.190922741534
+[26-20-2015 01:20:08 INFO arena.CreateArena]: For TestBot(2) distance = 25267.54271014132
+[26-20-2015 01:20:11 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-20-2015 01:20:11 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-20-2015 01:20:11 INFO arena.CreateArena]: Test Run 38 AlgoUsed KMeans
+[26-20-2015 01:20:13 INFO arena.CreateArena]: For TestBot(2) distance = 24981.576219924646
+[26-20-2015 01:20:14 INFO arena.CreateArena]: For TestBot(1) distance = 26428.1133400711
+[26-20-2015 01:20:16 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-20-2015 01:20:16 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-20-2015 01:20:16 INFO arena.CreateArena]: Test Run 39 AlgoUsed AP
+[26-20-2015 01:20:20 INFO arena.CreateArena]: For TestBot(0) distance = 27062.35639755965
+[26-20-2015 01:20:21 INFO arena.CreateArena]: For TestBot(2) distance = 31348.934641492204
+[26-20-2015 01:20:23 INFO arena.CreateArena]: For TestBot(4) distance = 31411.145550893863
+[26-20-2015 01:20:24 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-20-2015 01:20:24 WARN arena.CreateArena]: NUM_BOTS = 5
+[26-20-2015 01:20:24 INFO arena.CreateArena]: Test Run 39 AlgoUsed KMeans
+[26-20-2015 01:20:26 INFO arena.CreateArena]: For TestBot(2) distance = 24267.21296000322
+[26-20-2015 01:20:27 INFO arena.CreateArena]: For TestBot(3) distance = 33649.10793944956
+[26-20-2015 01:20:27 INFO arena.CreateArena]: For TestBot(4) distance = 32072.255374357377
+[26-20-2015 01:20:29 WARN arena.CreateArena]: CLUSTERS_MADE = 3
+[26-20-2015 01:20:29 WARN arena.CreateArena]: NUM_BOTS = 5

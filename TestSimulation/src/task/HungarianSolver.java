@@ -45,7 +45,7 @@ public class HungarianSolver implements ITaskAllocation{
 		for(int i=0;i<sizeOfCostMatrix;i++){
 			botToClusterAssigned.put(i,assignment[i]);
 		}
-		printAssignment();
+		//printAssignment();
 		return botToClusterAssigned;
 	}
 	

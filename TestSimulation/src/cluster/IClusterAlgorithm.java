@@ -11,7 +11,7 @@ public interface IClusterAlgorithm {
 	/**
 	 * Run clustering algorithm
 	 */
-	public void algorithm();
+	public void algorithm(int clusterSize);
 	
 	/**
 	 * Post-processing to return HashMap after clustering

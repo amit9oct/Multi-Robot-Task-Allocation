@@ -71,13 +71,12 @@ public class AffinityPropagation implements IClusterAlgorithm {
 
 			e.printStackTrace();
 		}
-		CreateArena.logs.info("****AP PointList****");
-		CreateArena.logs.info(pointList.toString());
+		//CreateArena.logs.info("****AP PointList****");
+		//CreateArena.logs.info(pointList.toString());
 	}
 
 	@Override
-	public void algorithm() {
-
+	public void algorithm(int clust) {
 		PointsProvider pointsPro = new PointsProvider(pointList);
 		HiAP hiap = new HiAP(pointsPro, clusterSize , WORKERS,THREADS_PER_WORKER,WORKER_ITERS,WAP_ITERS);
 		pointCluster = new HashMap<Integer,Integer>();

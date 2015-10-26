@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -40,12 +41,13 @@ import task.ITaskAllocation;
 import utils.Vector;
 
 public class CreateArena {
-	public static final int NUM_DESTINATION_POINTS = 30;
+	public static final int NUM_DESTINATION_POINTS = 15;
 	public static int NUM_ROBOTS = 5;
 	public static final int GAME_HEIGHT = 5000;
 	public static final int GAME_WIDTH = 5000;
+	public static final int NUM_OF_TEST_RUNS = 40;
 	public static BattlefieldSpecification battlefield = new BattlefieldSpecification(GAME_WIDTH,GAME_HEIGHT);
-    public static BattleSpecification battleSpec = new BattleSpecification(battlefield);
+    public static BattleSpecification[] battleSpec = new BattleSpecification[2*NUM_OF_TEST_RUNS];
     public static Destination[] destinations = new Destination[NUM_DESTINATION_POINTS];
     public static double[][] coordinates = null;
 	public static ArrayList<ArrayList<Vector>> RoboQArray = new ArrayList<ArrayList<Vector> >();
@@ -61,12 +63,13 @@ public class CreateArena {
 	public static String FILENAME = "inputPoints.txt";
 	public static final String[] ALGONAMES = setAlgoNames();
 	public static boolean READ_FILE = false;
-	private static final String TEST_BOT_FILENAME = "testBotPoints.txt";
+	private static String TEST_BOT_FILENAME = "testBotPoints.txt";
 	
 	public static HashMap<Vector,Integer> coordinatesToIndex = new HashMap<Vector,Integer>();
-	public static int CLUSTER_SIZE = 1;
+	public static int CLUSTER_SIZE = 3;
 
-	public static RobocodeEngine engine = new RobocodeEngine();
+	public static RobocodeEngine[] engine = new RobocodeEngine[2*NUM_OF_TEST_RUNS];
+	public static int curEngine = 0;
 	public static RobotSpecification clusterSpec = null;
 	public static Map<Vector,Integer> vectorToBotIndex = null;
 	public static boolean[] deathAnnounceTable = null;
@@ -84,6 +87,10 @@ public class CreateArena {
 	public static boolean[] realloc = new boolean[10000];
 	public static HashMap<Integer, Integer> reallocMap = new HashMap<Integer,Integer>();
 	
+	
+	public static double getDistanceBetween(int bot1,int bot2){
+		return CreateArena.botToVector.get(bot1).distance(CreateArena.botToVector.get(bot2));
+	}
 	
 	public static int getClusterNumber(int pointNumber){
 		int exemplar = 0;
@@ -142,7 +149,7 @@ public class CreateArena {
 			clusterAlgo = new KMeansAlgo();
 		}
 		clusterAlgo.preProcessing(fileName);
-		clusterAlgo.algorithm();
+		clusterAlgo.algorithm(CLUSTER_SIZE);
         pointClusterMap = clusterAlgo.postProcessing();
 	}
 	
@@ -161,7 +168,7 @@ public class CreateArena {
 	}
 	
 	public static void setStationaryPoints(){
-        	clusterSpec = engine.getLocalRepository("sample.Stationary1")[0];
+        	clusterSpec = engine[curEngine].getLocalRepository("sample.Stationary1")[0];
         	vectorToBotIndex = new HashMap<Vector,Integer>();
         	deathAnnounceTable = new boolean[NUM_DESTINATION_POINTS];
         	for(int i=0;i<NUM_DESTINATION_POINTS;i++)
@@ -169,7 +176,7 @@ public class CreateArena {
             		vectorToBotIndex.put(destinations[i].getVector(),i);
             		deathAnnounceTable[i] = false;
             		//System.out.println("i = "+vectorToBotIndex.get(new Vector(destinations[i].getPixelX(),destinations[i].getPixelY())));
-            		battleSpec.addRobotToBattleField(clusterSpec, destinations[i].getInitSetup());
+            		battleSpec[curEngine].addRobotToBattleField(clusterSpec, destinations[i].getInitSetup());
             	}catch(Exception e){
             		e.printStackTrace();
             	}
@@ -249,10 +256,10 @@ public class CreateArena {
 	
 	public static void assignTestBots(){
 
-        RobotSpecification[] testSpec = engine.getLocalRepository("sample.TestBot");
+        RobotSpecification[] testSpec = engine[curEngine].getLocalRepository("sample.TestBot");
         for(int i=0;i<NUM_ROBOTS;i++){
         	try {
-    			battleSpec.addRobotToBattleField(testSpec[0], RoboDestination[i].getInitSetup());
+    			battleSpec[curEngine].addRobotToBattleField(testSpec[0], RoboDestination[i].getInitSetup());
     		} catch (Exception e) {
     			// TODO Auto-generated catch block
     			e.printStackTrace();
@@ -293,9 +300,13 @@ public class CreateArena {
 		logs = Logger.getLogger(CreateArena.class.getName());
 		testLog = Logger.getLogger(CreateArena.class.getName());
 		PropertyConfigurator.configure("log4j.properties");
-		int numOfTestCases = 40;
+		int numOfTestCases = NUM_OF_TEST_RUNS;
+		RobocodeEngine en = new RobocodeEngine();
+		en.setVisible(true);
 		for(int i=0;i<numOfTestCases;i++){
+			coordinatesToIndex.clear();
 			FILENAME = "inputPoints"+Integer.toString(i)+".txt";
+			TEST_BOT_FILENAME = "testBotPoints"+Integer.toString(i)+".txt";
 			READ_FILE = false;
 			//Reading or changing the destination points on the map
 			/*if(!READ_FILE)
@@ -303,7 +314,10 @@ public class CreateArena {
 			else
 				logs.info("Reading the input file "+FILENAME);*/
 			setDestinationPoints(FILENAME,!READ_FILE);
+			//Setting up the Test bots from input file
+			setTestBotPoints(TEST_BOT_FILENAME,!READ_FILE);
 			for(int algoNum=0;algoNum<2;algoNum++){
+				battleSpec[curEngine] = new BattleSpecification(battlefield);
 				testLog.info("Test Run "+Integer.toString(i)+" AlgoUsed "+ALGONAMES[algoNum]);
 				//logs.info("Copying Binaries...");
 				CopyFile.copyFile("TestBot.class", "TestBot.class");
@@ -314,15 +328,12 @@ public class CreateArena {
 				//logs.info("Binaries copied!! Starting robocode engine");
 				
 				//Setting up the Robocode engine
+				engine[curEngine] = new RobocodeEngine();
 				RobocodeEngine.setLogMessagesEnabled(true); 
-				engine.addBattleListener(new BattleObserver());
-				engine.setVisible(true);
+				engine[curEngine].addBattleListener(new BattleObserver());
+				engine[curEngine].setVisible(true);
 				//logs.info("engine setup complete!");
 				
-				
-				
-				//Setting up the Test bots from input file
-				setTestBotPoints(TEST_BOT_FILENAME,!READ_FILE);
 				
 				
 				//Applying the clustering algorithm
@@ -342,16 +353,49 @@ public class CreateArena {
 				makeClusters();
 				assignClusters();
 				
-				battleSpec.setAllBots();
+				battleSpec[curEngine].setAllBots();
 				// Run our specified battle and let it run till it is over
-				engine.runBattle(battleSpec, true); // waits till the battle finishes
+				engine[curEngine].runBattle(battleSpec[curEngine], true); // waits till the battle finishes
+				engine[curEngine].close();
+				System.out.println("Control Comes here");
+				resetAll();
 				// Cleanup our RobocodeEngine
-				engine.close();
+				//engine.close();
 			}
+			
         }
         // Make sure that the Java VM is shut down properly
         System.exit(0);
     }
+	private static void resetAll() {
+		testLog.warn("CLUSTERS_MADE = "+NUM_CLUSTERS_MADE);
+		testLog.warn("NUM_BOTS = "+NUM_ROBOTS);
+		clusterMap.clear();
+		pointClusterMap.clear();
+		botToCluster.clear();
+		botToVector.clear();
+		cluster_count = 0;
+		
+		NUM_CLUSTERS_MADE = 0;
+		RoboQArray.clear();
+		RoboQ.clear();
+		vectorToBotIndex.clear();
+		reallocMap.clear();
+		
+		Arrays.fill(destReady, false);
+		Arrays.fill(deathAnnounceTable, false);
+		Arrays.fill(realloc, false);
+		Arrays.fill(isExemplar, 0, NUM_DESTINATION_POINTS, false);
+		//engine[curEngine].close();
+		curEngine++;
+		
+	}
+
+	public static void closeEngine(){
+		engine[curEngine].close();
+		curEngine++;
+		System.out.println("engine changes!!!!!!!!!!!!!!!");
+	}
 	public static boolean areAllBotsKilled(){
 		boolean answer =  true;
 		for(int i=0;i<NUM_DESTINATION_POINTS;i++){

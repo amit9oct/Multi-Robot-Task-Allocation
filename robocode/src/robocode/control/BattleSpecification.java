@@ -33,7 +33,7 @@ public class BattleSpecification implements java.io.Serializable {
 	private RobotSetup[] initialSetups;
 	private ArrayList<RobotSpecification> robotsList = new ArrayList<RobotSpecification>();
 	private ArrayList<RobotSetup> initialSetupsList = new ArrayList<RobotSetup>();
-	private static int robotCount = 0;
+	private int robotCount = 0;
 
 	/**
 	 * Creates a new BattleSpecification with the given number of rounds, battlefield size, and robots.

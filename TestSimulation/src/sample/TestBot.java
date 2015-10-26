@@ -151,7 +151,16 @@ public class TestBot extends AdvancedRobot
 				//if(visited.get(index))
 					//System.out.println("Marked!! "+index);
 		}
-		CreateArena.testLog.info("For TestBot("+this.indexNumber+") distance = "+this.distance);
+		if(CreateArena.areAllBotsKilled()){
+			CreateArena.testLog.info("For TestBot("+this.indexNumber+") distance = "+this.distance);
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//CreateArena.closeEngine();
+		}
 	}
 	
 	void printQueue(){
@@ -177,10 +186,6 @@ public class TestBot extends AdvancedRobot
 //	}
 
 	public void initQ(){
-		assignIndexNumber();
-		while(!CreateArena.areAllDestBotSet()){
-			doNothing();
-		}
 		//CreateArena.logs.info("TestBot("+(this.indexNumber+1)+") has been created!!!");
 		Q = new ArrayDeque<Integer>(CreateArena.RoboQ.get(CreateArena.botToCluster.get(this.indexNumber)));
 		//CreateArena.logs.info("For TestBot("+(this.indexNumber+1)+") "+"This is queue before TSP");
@@ -204,22 +209,49 @@ public class TestBot extends AdvancedRobot
 
 	}
 	public void run() {
-		initQ();	
-		while(true) {
-			if(!CreateArena.areAllBotsKilled()){
-			traverseAll();
-			if(!CreateArena.areAllBotsKilled()){
-					//CreateArena.logs.info("For TestBot("+(this.indexNumber+1)+") "+"travesed all points");
-					//CreateArena.logs.info("For TestBot("+(this.indexNumber+1)+") "+"Going for reallocation");
-					CreateArena.reAlloc(indexNumber, new Vector(this.getX(),this.getY()));
-					if(CreateArena.reallocMap.get(CreateArena.botToCluster.get(this.indexNumber))==this.indexNumber)
-						initQ();
+		try{
+			assignIndexNumber();
+			while(!CreateArena.areAllDestBotSet()){
+				doNothing();
+			}
+			if(CreateArena.RoboQ.get(CreateArena.botToCluster.get(this.indexNumber)).size()==0){
+				try{
+					Thread.sleep(2000);
+				}catch(Exception e){
+					
 				}
 			}
-			doNothing();
-			//System.out.close();
+			initQ();	
+			while(true) {
+				if(!CreateArena.areAllBotsKilled()){
+				traverseAll();
+				if(!CreateArena.areAllBotsKilled()){
+						//CreateArena.logs.info("For TestBot("+(this.indexNumber+1)+") "+"travesed all points");
+						//CreateArena.logs.info("For TestBot("+(this.indexNumber+1)+") "+"Going for reallocation");
+						CreateArena.reAlloc(indexNumber, new Vector(this.getX(),this.getY()));
+						if(CreateArena.reallocMap.get(CreateArena.botToCluster.get(this.indexNumber))==this.indexNumber)
+							initQ();
+					}
+				}
+				else{
+					CreateArena.testLog.info("For TestBot("+this.indexNumber+") distance = "+this.distance);
+					try{
+						Thread.sleep(2000);
+					}catch(Exception e){
+						
+					}
+				}
+				doNothing();
+				//System.out.close();
+			}
+		}catch(Exception e){
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 		}
-		
 	}
 	
 	private void setTSPPoints() {
@@ -313,6 +345,14 @@ public class TestBot extends AdvancedRobot
 		 	//System.out.println("Current Target  is X =="+curTarget.getX()+" Y == "+curTarget.getY());
 		 	//System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!! is found "+event.getName());
 		 	//System.out.println("########################Target is" + CreateArena.vectorToBotIndex.get(curTarget));
+		 	if(CreateArena.areAllBotsKilled()){
+		 		CreateArena.testLog.info("For TestBot("+this.indexNumber+") distance = "+this.distance);
+		 		try{
+		 			Thread.sleep(2000);
+		 		}catch(Exception e){
+		 			
+		 		}
+		 	}
 		 	if(!(isStationaryBot(event.getName()) && CreateArena.vectorToBotIndex.get(curTarget) == getBotIndexNumber(event.getName()))){
 		 		//it is an obstacle
 		 		if(curTarget!=null){

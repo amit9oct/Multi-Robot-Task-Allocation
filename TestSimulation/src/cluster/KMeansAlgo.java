@@ -50,9 +50,9 @@ public class KMeansAlgo implements IClusterAlgorithm{
 	}
 
 	@Override
-	public void algorithm() {
+	public void algorithm(int cluserSize) {
 		// TODO Auto-generated method stub
-		Clusterer km = new KMeans(10);
+		Clusterer km = new KMeans(cluserSize);
 		this.clusters = km.cluster(this.data);
 		this.clusterCount = this.clusters.length;
 	}
